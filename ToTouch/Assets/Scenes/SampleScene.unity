@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 322275020}
   - component: {fileID: 322275019}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 337038833}
   - component: {fileID: 337038832}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 790019247}
   - component: {fileID: 790019246}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5249,7 +5249,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790019245}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5299,7 +5299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790019245}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 44.2, y: 44.4, z: 0}
+  m_LocalPosition: {x: 44.9, y: 44.4, z: 0}
   m_LocalScale: {x: 200, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5609,7 +5609,7 @@ GameObject:
   - component: {fileID: 1152640641}
   - component: {fileID: 1152640640}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5635,7 +5635,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152640639}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5685,7 +5685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152640639}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -26.6, y: 44.4, z: 0}
+  m_LocalPosition: {x: -27.3, y: 44.4, z: 0}
   m_LocalScale: {x: 200, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6078,7 +6078,7 @@ GameObject:
   - component: {fileID: 1658282190}
   - component: {fileID: 1658282189}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6104,7 +6104,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658282187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6154,7 +6154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658282187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: 22.6, z: 0}
+  m_LocalPosition: {x: 1.4, y: 23.6, z: 0}
   m_LocalScale: {x: 250, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6173,7 +6173,7 @@ GameObject:
   - component: {fileID: 1679981287}
   - component: {fileID: 1679981286}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6199,7 +6199,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679981285}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6249,7 +6249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679981285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: -16.7, z: 0}
+  m_LocalPosition: {x: 1.4, y: -17.9, z: 0}
   m_LocalScale: {x: 250, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6269,6 +6269,7 @@ GameObject:
   - component: {fileID: 1988487213}
   - component: {fileID: 1988487212}
   - component: {fileID: 1988487211}
+  - component: {fileID: 1988487217}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -6290,7 +6291,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 120
   m_CollisionDetection: 2
 --- !u!114 &1988487212
 MonoBehaviour:
@@ -6299,7 +6300,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988487210}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c2a61dc62f48654c9ca049ec23b5322, type: 3}
   m_Name: 
@@ -6380,6 +6381,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1988487217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988487210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5972a2d35caa74385e5983df636ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  osc: {fileID: 2068972939}
+--- !u!1 &2068972938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068972940}
+  - component: {fileID: 2068972939}
+  m_Layer: 0
+  m_Name: OSC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2068972939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068972938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f6651186020964bbecb3ba4e6f925d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inPort: 7500
+  outIP: 127.0.0.1
+  outPort: 6161
+--- !u!4 &2068972940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068972938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.3114967, y: -3.2039618, z: 56.554672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1079449844514156437
 PrefabInstance:

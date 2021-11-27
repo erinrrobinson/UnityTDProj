@@ -25,7 +25,7 @@ public class OSCmove : MonoBehaviour {
 
         Debug.Log("x position" + x);
 
-		transform.position = new Vector3(x,y,0f);
+		transform.position = new Vector3(y,x,0f);
 	}
 
 
